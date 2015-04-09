@@ -48,7 +48,8 @@ module.exports = function (modernizrPath) {
 				"feature-detects": tests,
 				"options": options,
 				"minify": minify,
-				"dest": settings.dest
+				"dest": settings.dest,
+				"cssPrefix": settings.cssPrefix
 			};
 
 			// Perform a series of checks to validify cache
